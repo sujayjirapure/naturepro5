@@ -43,12 +43,12 @@ const ContactPage = () => {
             {/* Contact Details */}
             <div className="stat-card p-6">
               <h3 className="text-lg font-semibold text-foreground mb-4">Contact Details</h3>
-              <p className="text-muted-foreground text-sm mb-3">
+              {/* <p className="text-muted-foreground text-sm mb-3">
                 <strong className="text-foreground">Seema Bagal</strong> – Project Manager
-              </p>
+              </p> */}
               <div className="space-y-2 text-sm">
-                <a href="tel:8956258824" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
-                  <Phone size={16} /> +91 89562 58824
+                <a href="tel:+912025412175" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+                  <Phone size={16} /> +91 020-25412175
                 </a>
                 <a href="mailto:natureprocreators@gmail.com" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                   <Mail size={16} /> natureprocreators@gmail.com

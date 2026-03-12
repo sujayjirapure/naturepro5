@@ -20,7 +20,7 @@ const HomePage = () => {
             </h1>
             <p className="text-lg text-primary-foreground/80 mb-8 leading-relaxed">
   NaturePro provides advanced <strong>plastic waste management services</strong> using 
-  <strong> plastic pyrolysis technology</strong> to convert <strong>industrial plastic waste </strong> 
+  <strong> plastic pyrolysis technology</strong> to convert difficult to recycle Municipal plastic waste and <strong>industrial plastic waste </strong> 
   into valuable <strong>pyrolysis oil</strong>. Our process supports <strong>sustainability</strong>, 
   promotes a <strong>circular economy in plastic recycling</strong>, and generates 
   <strong>renewable energy from waste</strong> while fulfilling
@@ -48,28 +48,43 @@ const HomePage = () => {
       <StatsSection />
 
       {/* About Brief */}
-      <section className="section-padding section-alt">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
-            About <span className="text-primary">NaturePro</span>
-          </h2>
-          <div className="green-underline mb-8" />
-         <p className="text-muted-foreground leading-relaxed text-lg mb-8">
-  NaturePro Creators LLP is a leading <strong>plastic waste management company  </strong> 
-  specializing in <strong>plastic pyrolysis</strong> and sustainable recycling solutions. 
-  We process <strong>industrial plastic waste</strong> and multilayer plastic through 
-  advanced chemical recycling technology to produce <strong>pyrolysis oil</strong>, 
-  contributing to <strong>sustainability</strong>, CSR initiatives, and the 
-  <strong> circular economy for plastic recycling</strong>.
-</p>
-          <Link
-            to="/about"
-            className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg hover:opacity-90 transition-opacity"
-          >
-            Learn More
-          </Link>
+      {/* About Brief */}
+<section className="section-padding section-alt">
+  <div className="max-w-4xl mx-auto text-center">
+    <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
+      About <span className="text-primary">NaturePro</span>
+    </h2>
+    <div className="green-underline mb-8" />
+    <p className="text-muted-foreground leading-relaxed text-lg mb-12">
+      NaturePro Creators LLP is a leading <strong>plastic waste management company</strong> 
+      specializing in <strong>plastic pyrolysis</strong> and sustainable recycling solutions. 
+      We process <strong>industrial plastic waste</strong> and multilayer plastic through 
+      advanced chemical recycling technology to produce <strong>pyrolysis oil</strong>, 
+      contributing to <strong>sustainability</strong>, CSR initiatives, and the 
+      <strong> circular economy for plastic recycling</strong>.
+    </p>
+
+    {/* Centered 2-Box Info Area */}
+    <div className="max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+      {stats2.map((stat, i) => (
+        <div key={i} className="stat-card p-6 text-center border border-primary/10 bg-card rounded-xl shadow-sm">
+          <stat.icon className="mx-auto mb-3 text-primary" size={40} />
+          <div className="text-2xl md:text-3xl font-bold text-primary">{stat.value}</div>
+          <div className="text-sm font-medium text-muted-foreground mt-2 uppercase tracking-wide">
+            {stat.label}
+          </div>
         </div>
-      </section>
+      ))}
+    </div>
+
+    <Link
+      to="/about"
+      className="inline-flex items-center px-8 py-3 bg-primary text-primary-foreground font-medium rounded-lg hover:opacity-90 transition-opacity"
+    >
+      Learn More
+    </Link>
+  </div>
+</section>
 
       {/* What We Do */}
       <section className="section-padding">
@@ -231,10 +246,23 @@ const HomePage = () => {
 
 // Data
 const stats = [
-  { icon: Recycle, value: "2000+", label: "Tonnes Plastic Recycled" },
+  { icon: Recycle, value: "2000+", label: "Tonnes Plastic waste completely finished from Environment" },
   { icon: Leaf, value: "1500", label: "Tonnes/Year Capacity" },
   { icon: Users, value: "25+", label: "Clients Served" },
   { icon: Award, value: "EPR & MPCB", label: "Certified Operations" },
+];
+
+const stats2 = [
+  { 
+    icon: Factory, 
+    value: "4500 Tons", 
+    label: "CO2 Emission Reduced" 
+  },
+  { 
+    icon: Droplets, 
+    value: "5,00,000 + Litres", 
+    label: "Plastic Oil Generated" 
+  },
 ];
 
 const services = [
