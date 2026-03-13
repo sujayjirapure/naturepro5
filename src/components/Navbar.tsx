@@ -34,8 +34,8 @@ const Navbar = () => {
         <a href="#home" className="flex items-center gap-3">
           <Link to="/" className="flex items-center gap-3">
           <img src={logo} alt="NaturePro Creators LLP" className="h-14 w-auto rounded" />
-          <span className="font-heading font-bold text-lg hidden sm:block text-primary">
-            NaturePro Creators
+          <span className="font-heading font-bold text-[25px] hidden sm:block text-primary">
+            Naturepro Creators
           </span>
           </Link>
         </a>

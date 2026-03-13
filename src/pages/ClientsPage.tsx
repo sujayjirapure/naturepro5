@@ -77,7 +77,7 @@ const ClientsPage = () => {
               Types of Plastic Waste <span className="text-primary">We Accept</span>
             </h2>
             <p className="text-muted-foreground mb-8">
-              NaturePro specializes in handling industrial plastic waste streams. Our team evaluates each waste stream to ensure safe and suitable recycling through pyrolysis technology.
+              Naturepro specializes in handling industrial plastic waste streams. Our team evaluates each waste stream to ensure safe and suitable recycling through pyrolysis technology.
             </p>
             <div className="space-y-3">
               {plasticTypes.map((type, i) => (

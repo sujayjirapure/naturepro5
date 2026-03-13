@@ -7,7 +7,7 @@ const AboutPage = () => {
       <section className="section-padding section-alt">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
-            About <span className="text-primary">NaturePro</span>
+            About <span className="text-primary">Naturepro</span>
           </h1>
           <div className="green-underline mb-8" />
         </div>

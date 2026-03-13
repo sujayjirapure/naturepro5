@@ -46,10 +46,10 @@ const Legal = () => {
           <h3 className="text-xl font-semibold mb-3">Cookie Policy</h3>
           <p className="text-sm opacity-90">This website uses cookies to improve experience and analyze traffic. Cookies may store user preferences, session info, and analytics data. You can manage these via your browser settings.</p>
         </section>
-        {/* <section>
+        <section>
           <h3 className="text-xl font-semibold mb-3">Disclaimer</h3>
           <p className="text-sm opacity-90">Information here is for general purposes only. We make no guarantees regarding accuracy. Any action taken based on this info is strictly at your own risk.</p>
-        </section> */}
+        </section>
       </div>
     </div>
   );

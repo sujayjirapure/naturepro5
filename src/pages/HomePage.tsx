@@ -19,7 +19,7 @@ const HomePage = () => {
               {/* <span className="text-secondary">Sustainable Solutions</span> */}
             </h1>
             <p className="text-lg text-primary-foreground/80 mb-8 leading-relaxed">
-  NaturePro provides advanced <strong>plastic waste management services</strong> using 
+  Naturepro provides advanced <strong>plastic waste management services</strong> using 
   <strong> plastic pyrolysis technology</strong> to convert difficult to recycle Municipal plastic waste and <strong>industrial plastic waste </strong> 
   into valuable <strong>pyrolysis oil</strong>. Our process supports <strong>sustainability</strong>, 
   promotes a <strong>circular economy in plastic recycling</strong>, and generates 
@@ -52,30 +52,20 @@ const HomePage = () => {
 <section className="section-padding section-alt">
   <div className="max-w-4xl mx-auto text-center">
     <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
-      About <span className="text-primary">NaturePro</span>
+      About <span className="text-primary">Naturepro</span>
     </h2>
     <div className="green-underline mb-8" />
     <p className="text-muted-foreground leading-relaxed text-lg mb-12">
-      NaturePro Creators LLP is a leading <strong>plastic waste management company</strong> 
+      Naturepro Creators LLP is a leading <strong>plastic waste management company</strong> 
       specializing in <strong>plastic pyrolysis</strong> and sustainable recycling solutions. 
-      We process <strong>industrial plastic waste</strong> and multilayer plastic through 
+      We process difficult to recycle<strong> Municipal plastic waste</strong> and <strong>industrial plastic waste</strong> and multilayer plastic through 
       advanced chemical recycling technology to produce <strong>pyrolysis oil</strong>, 
       contributing to <strong>sustainability</strong>, CSR initiatives, and the 
       <strong> circular economy for plastic recycling</strong>.
     </p>
 
     {/* Centered 2-Box Info Area */}
-    <div className="max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-      {stats2.map((stat, i) => (
-        <div key={i} className="stat-card p-6 text-center border border-primary/10 bg-card rounded-xl shadow-sm">
-          <stat.icon className="mx-auto mb-3 text-primary" size={40} />
-          <div className="text-2xl md:text-3xl font-bold text-primary">{stat.value}</div>
-          <div className="text-sm font-medium text-muted-foreground mt-2 uppercase tracking-wide">
-            {stat.label}
-          </div>
-        </div>
-      ))}
-    </div>
+   
 
     <Link
       to="/about"
@@ -113,47 +103,52 @@ const HomePage = () => {
       </section>
 
       {/* Plant Section */}
-      <section className="section-padding section-alt">
-  <div className="max-w-6xl mx-auto flex flex-col gap-10">
+<section className="section-padding section-alt">
+  <div className="max-w-6xl mx-auto">
 
-    {/* Image First */}
-    <div className="rounded-xl overflow-hidden shadow-lg">
-      <img
-        src={plantImg}
-        alt="NaturePro Plant at Palshi"
-        className="w-full h-auto"
-      />
-    </div>
+    <div className="flex flex-col md:flex-row gap-12 items-center">
 
-    {/* Text Below */}
-    <div>
-      <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
-        Our <span className="text-primary">Plant</span>
-      </h2>
-      <div className="green-underline !mx-0 mb-6" />
+      {/* Text Section - 30% */}
+      <div className="w-full md:w-[30%]">
+        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
+          Our <span className="text-primary">Plant</span>
+        </h2>
 
-      <p className="text-muted-foreground leading-relaxed mb-6">
-        Located at Palshi, Satara, Maharashtra — just 6 km from Shirwal. Our
-        facility is equipped with advanced pyrolysis technology and operates
-        under full MPCB compliance with 8 live CCTV cameras for transparent
-        operations.
-      </p>
+        <div className="green-underline !mx-0 mb-6" />
 
-      <ul className="space-y-3 mb-8">
-        {plantFeatures.map((feat, i) => (
-          <li key={i} className="flex items-start gap-3">
-            <CheckCircle className="text-primary mt-0.5 shrink-0" size={18} />
-            <span className="text-muted-foreground text-sm">{feat}</span>
-          </li>
-        ))}
-      </ul>
+        <p className="text-muted-foreground leading-relaxed mb-6">
+          Located at Palshi, Satara, Maharashtra — just 6 km from Shirwal.
+          Our facility is equipped with advanced pyrolysis technology and
+          operates under full MPCB compliance with live CCTV cameras for
+          transparent operations.
+        </p>
 
-      <Link
-        to="/operations"
-        className="inline-flex items-center gap-2 text-primary font-medium hover:underline"
-      >
-        View Operations <ArrowRight size={16} />
-      </Link>
+        <ul className="space-y-3 mb-8">
+          {plantFeatures.map((feat, i) => (
+            <li key={i} className="flex items-start gap-3">
+              <CheckCircle className="text-primary mt-0.5 shrink-0" size={18} />
+              <span className="text-muted-foreground text-sm">{feat}</span>
+            </li>
+          ))}
+        </ul>
+
+        <Link
+          to="/operations"
+          className="inline-flex items-center gap-2 text-primary font-medium hover:underline"
+        >
+          View Operations <ArrowRight size={16} />
+        </Link>
+      </div>
+
+      {/* Image Section - 70% */}
+      <div className="w-full md:w-[70%] rounded-xl overflow-hidden shadow-lg">
+        <img
+          src={plantImg}
+          alt="NaturePro Plant at Palshi"
+          className="w-full h-full object-cover"
+        />
+      </div>
+
     </div>
 
   </div>
@@ -163,7 +158,7 @@ const HomePage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
-              Why Choose <span className="text-primary">NaturePro</span>
+              Why Choose <span className="text-primary">Naturepro</span>
             </h2>
             <div className="green-underline mb-6" />
           </div>
@@ -231,7 +226,7 @@ const HomePage = () => {
     </h2>
 
     <p className="text-muted-foreground leading-relaxed">
-      NaturePro offers complete solutions for <strong>plastic waste management</strong>, 
+      Naturepro offers complete solutions for <strong>plastic waste management</strong>, 
       including collection, processing, and conversion of <strong>industrial plastic waste</strong> 
       into energy through <strong>plastic pyrolysis</strong>. As a responsible 
       <strong> pyrolysis oil manufacturer</strong>, we support businesses in achieving 
@@ -255,7 +250,7 @@ const stats = [
 const stats2 = [
   { 
     icon: Factory, 
-    value: "4500 Tons", 
+    value: "≈4500 Tons", 
     label: "CO2 Emission Reduced" 
   },
   { 
@@ -288,14 +283,41 @@ const highlights = [
 
 const StatsSection = () => (
   <section className="section-padding bg-card">
-    <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
-      {stats.map((stat, i) => (
-        <div key={i} className="stat-card text-center">
-          <stat.icon className="mx-auto mb-3 text-primary" size={32} />
-          <div className="text-2xl md:text-3xl font-bold text-primary">{stat.value}</div>
-          <div className="text-sm text-muted-foreground mt-1">{stat.label}</div>
-        </div>
-      ))}
+    <div className="max-w-6xl mx-auto">
+
+      {/* First Row - 4 boxes */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-6">
+        {stats.map((stat, i) => (
+          <div key={i} className="stat-card text-center">
+            <stat.icon className="mx-auto mb-3 text-primary" size={32} />
+            <div className="text-2xl md:text-3xl font-bold text-primary">
+              {stat.value}
+            </div>
+            <div className="text-sm text-muted-foreground mt-1">
+              {stat.label}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Second Row - 2 boxes centered */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+        {stats2.map((stat, i) => (
+          <div
+            key={i}
+            className="stat-card p-6 text-center border border-primary/10 bg-card rounded-xl shadow-sm"
+          >
+            <stat.icon className="mx-auto mb-3 text-primary" size={40} />
+            <div className="text-2xl md:text-3xl font-bold text-primary">
+              {stat.value}
+            </div>
+            <div className="text-sm font-medium text-muted-foreground mt-2 uppercase tracking-wide">
+              {stat.label}
+            </div>
+          </div>
+        ))}
+      </div>
+
     </div>
   </section>
 );
