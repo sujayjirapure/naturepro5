@@ -22,8 +22,8 @@ const HomePage = () => {
   Naturepro provides advanced <strong>plastic waste management services</strong> using 
   <strong> plastic pyrolysis technology</strong> to convert difficult to recycle Municipal plastic waste and <strong>industrial plastic waste </strong> 
   into valuable <strong>pyrolysis oil</strong>. Our process supports <strong>sustainability</strong>, 
-  promotes a <strong>circular economy in plastic recycling</strong>, and generates 
-  <strong>renewable energy from waste</strong> while fulfilling
+  promotes a <strong>circular economy in plastic recycling</strong>, and generates  
+  <strong> renewable energy from waste</strong> while fulfilling
   <strong> EPR (Extended Producer Responsibility)</strong> and CSR environmental goals.
 </p>
             <div className="flex flex-wrap gap-4">
@@ -56,7 +56,7 @@ const HomePage = () => {
     </h2>
     <div className="green-underline mb-8" />
     <p className="text-muted-foreground leading-relaxed text-lg mb-12">
-      Naturepro Creators LLP is a leading <strong>plastic waste management company</strong> 
+      Naturepro Creators LLP is a leading <strong>plastic waste management company </strong> 
       specializing in <strong>plastic pyrolysis</strong> and sustainable recycling solutions. 
       We process difficult to recycle<strong> Municipal plastic waste</strong> and <strong>industrial plastic waste</strong> and multilayer plastic through 
       advanced chemical recycling technology to produce <strong>pyrolysis oil</strong>, 

@@ -114,7 +114,7 @@ const ContactPage = () => {
                   href="tel:+912025412175"
                   className="flex items-center gap-2 text-muted-foreground hover:text-primary"
                 >
-                  <Phone size={16}/> +91 020-25412175
+                  <Phone size={16}/> +91 20-25412175
                 </a>
 
                 <a
