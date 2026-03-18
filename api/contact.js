@@ -22,7 +22,7 @@ export default async function handler(req, res) {
 
     const response = await resend.emails.send({
       from: "ATIN <onboarding@resend.dev>",
-      to: "natureprocreators@gmail.com",
+      to: "sujayjirapure03@gmail.com",
       subject: "New Plastic Waste Inquiry",
       html: `
         <h2>New Inquiry</h2>
