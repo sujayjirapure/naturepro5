@@ -21,7 +21,7 @@ const HomePage = () => {
             <p className="text-lg text-primary-foreground/80 mb-8 leading-relaxed">
   Naturepro provides advanced <strong>plastic waste management services</strong> using 
   <strong> plastic pyrolysis technology</strong> to convert difficult to recycle Municipal plastic waste and <strong>industrial plastic waste </strong> 
-  into valuable <strong>pyrolysis oil</strong>. Our process supports <strong>sustainability</strong>, 
+  into valuable <strong>Advanced Bio-fuel</strong>. Our process supports <strong>sustainability</strong>, 
   promotes a <strong>circular economy in plastic recycling</strong>, and generates  
   <strong> renewable energy from waste</strong> while fulfilling
   <strong> EPR (Extended Producer Responsibility)</strong> and CSR environmental goals.
@@ -59,7 +59,7 @@ const HomePage = () => {
       Naturepro Creators LLP is a leading <strong>plastic waste management company </strong> 
       specializing in <strong>plastic pyrolysis</strong> and sustainable recycling solutions. 
       We process difficult to recycle<strong> Municipal plastic waste</strong> and <strong>industrial plastic waste</strong> and multilayer plastic through 
-      advanced chemical recycling technology to produce <strong>pyrolysis oil</strong>, 
+      advanced chemical recycling technology to produce <strong>Advanced Bio-fuel</strong>, 
       contributing to <strong>sustainability</strong>, CSR initiatives, and the 
       <strong> circular economy for plastic recycling</strong>.
     </p>
@@ -182,7 +182,7 @@ const HomePage = () => {
           </h2>
           <div className="green-underline mb-8" />
           <p className="text-muted-foreground leading-relaxed text-lg mb-6">
-  Our facility produces <strong>pyrolysis oil from plastic waste</strong> using advanced 
+  Our facility produces <strong>Advanced Bio-fuel from plastic waste</strong> using advanced 
   <strong> plastic pyrolysis technology</strong>. This innovative process converts 
   low-value plastic waste into <strong>renewable energy from waste</strong>, helping 
   industries achieve <strong>CSR sustainability goals</strong> and comply with 
@@ -229,7 +229,7 @@ const HomePage = () => {
       Naturepro offers complete solutions for <strong>plastic waste management</strong>, 
       including collection, processing, and conversion of <strong>industrial plastic waste</strong> 
       into energy through <strong>plastic pyrolysis</strong>. As a responsible 
-      <strong> pyrolysis oil manufacturer</strong>, we support businesses in achieving 
+      <strong> Advanced Bio-fuel manufacturer</strong>, we support businesses in achieving 
       <strong> sustainability</strong>, fulfilling <strong>CSR environmental responsibilities</strong>, 
       and building a <strong>circular economy in plastic recycling</strong>.
     </p>
@@ -242,7 +242,7 @@ const HomePage = () => {
 // Data
 const stats = [
   { icon: Recycle, value: "2000+", label: "Tonnes Plastic waste completely finished from Environment" },
-  { icon: Leaf, value: "1500", label: "Tonnes/Year Capacity" },
+  { icon: Leaf, value: "3000", label: "Tonnes/Year Capacity" },
   { icon: Users, value: "25+", label: "Clients Served" },
   { icon: Award, value: "EPR & MPCB", label: "Certified Operations" },
 ];
@@ -255,8 +255,8 @@ const stats2 = [
   },
   { 
     icon: Droplets, 
-    value: "5,00,000 + Litres", 
-    label: "Plastic Oil Generated" 
+    value: "~ 4,50,000 + Litres", 
+    label: "Advanced Bio-fuel generated" 
   },
 ];
 
@@ -267,7 +267,7 @@ const services = [
 ];
 
 const plantFeatures = [
-  "1500 Tonnes/Year processing capacity",
+  "3000 Tonnes/Year processing capacity",
   "EPR & MPCB Certified operations",
   "Live CCTV cameras for transparency",
   "Advanced pyrolysis technology",
@@ -277,7 +277,7 @@ const plantFeatures = [
 const highlights = [
   { icon: Shield, title: "Fully Compliant", desc: "EPR & MPCB certified with zero harmful emissions." },
   { icon: Droplets, title: "Alternative Fuel", desc: "Advance Bio-fuel recognized under National Policy of Biofuels 2018." },
-  { icon: TrendingUp, title: "Scalable Capacity", desc: "Currently 1500 TPY with growing pipeline across different cities." },
+  { icon: TrendingUp, title: "Scalable Capacity", desc: "Currently 3000 TPY with growing pipeline across different cities." },
   { icon: Recycle, title: "End of Life", desc: "Complete processing of lowest density multilayered plastic." },
 ];
 
