@@ -39,7 +39,7 @@ const AboutPage = () => {
       <p className="text-muted-foreground leading-relaxed mb-8">
         We have processed more than <strong className="text-foreground">2000 Tonnes</strong> of
         lowest density multilayered plastic waste to "End of Life" and presently, we have
-        capacity of processing around <strong className="text-foreground">1500 tonnes</strong> plastic
+        capacity of processing around <strong className="text-foreground">3000 tonnes</strong> plastic
         waste per year.
       </p>
 
@@ -65,8 +65,8 @@ const AboutPage = () => {
       <section className="section-padding section-alt">
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
           {[
-            { value: "2000+", label: "Tonnes Processed" },
-            { value: "1500", label: "Tonnes/Year Capacity" },
+            { value: "2000+", label: "Tonnes Plastic Waste Processed" },
+            { value: "3000", label: "Tonnes/Year Capacity" },
             { value: "EPR & MPCB", label: "Certified" },
           ].map((stat, i) => (
             <div key={i} className="stat-card">

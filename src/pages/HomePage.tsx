@@ -255,7 +255,7 @@ const stats2 = [
   },
   { 
     icon: Droplets, 
-    value: "~ 4,50,000 + Litres", 
+    value: "≈4,50,000 + Litres", 
     label: "Advanced Bio-fuel generated" 
   },
 ];
