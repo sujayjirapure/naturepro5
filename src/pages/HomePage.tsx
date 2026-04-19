@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Recycle, Leaf, Users, Award, Factory, Droplets, Flame, ArrowRight, CheckCircle, Shield, TrendingUp } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/natureprobanner.avif";
 import plantImg from "@/assets/plant.jpg";
 
 const HomePage = () => {

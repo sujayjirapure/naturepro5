@@ -66,9 +66,9 @@ const Footer = () => {
   <Link to="/legal" className="hover:opacity-100 transition-opacity underline-offset-4 hover:underline">
     Privacy Policy
   </Link>
-  <Link to="/legal" className="hover:opacity-100 transition-opacity underline-offset-4 hover:underline">
+  {/* <Link to="/legal" className="hover:opacity-100 transition-opacity underline-offset-4 hover:underline">
     Terms of Use
-  </Link>
+  </Link> */}
 </div>
 </div>
       </div>
